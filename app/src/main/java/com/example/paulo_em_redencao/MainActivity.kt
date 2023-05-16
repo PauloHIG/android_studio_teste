@@ -28,8 +28,10 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
+    val a = 1.4
+
     Text(
-            text = "Olá mundo, meu nome é $name!",
+            text = "Olá mundo, meu nome é $name! e serei um desenvolvedor Fod** ",
             modifier = modifier
     )
 }
